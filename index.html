@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GFA 3 - Randomizer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body class="text-light " onload="ran()" style="background-image: url('https://i.pinimg.com/originals/44/52/cc/4452ccd4a43c2154fd72baac6429ce36.png'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+    <div class="card w-75 mx-auto mt-5" style="background-color: rgba(86,76,113,0.95)">
+        <h1 class="card-header display-4 text-center">Minds of Music</h1>
+        <p class="card-body text-center">The three most popular music genres in Grade 9 are Pop, Rock, and OPM. <br><br>The number of students who listen to these 3 specific genres are:</p>
+        <div class="container text-center">
+          <div class="row w-50 mx-auto">
+            <div class="col border rounded-top py-3 mx-2">
+              Pop
+            </div>
+            <div class="col border rounded-top py-3 mx-2">
+              Rock
+            </div>
+            <div class="col border rounded-top py-3 mx-2">
+              OPM
+            </div>
+          </div>
+          <div class="row w-50 mx-auto">
+            <div class="col border rounded-bottom py-3 mx-2" id="pop">
+              
+            </div>
+            <div class="col border rounded-bottom py-3 mx-2" id="rock">
+              
+            </div>
+            <div class="col border rounded-bottom py-3 mx-2" id="opm">
+              
+            </div>
+          </div>
+        </div>
+        <p class="card-body text-center">The genre which has the most listener is: <span id="most"></span></p>
+        <p class="card-body text-center">The name of the person with most Pop music listened to starts with the letter: <span id="name"></span></p>
+        <p class="card-body text-center">Their total Pop music listening time is <span id="tmins"></span>: <span id="hours"></span> <span id="mins"></span></p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
